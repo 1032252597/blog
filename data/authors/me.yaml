@@ -7,7 +7,7 @@ name:
   family: Пыхтеева
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: she/her
+  pronouns: она/её
 postnominals:
   - PhD
   - MIEEE
@@ -15,8 +15,8 @@ status:
   icon: "☕️"
 role: Студентка РУДН им. Патриса Лумумбы
 bio: |
-  Маргарита Пыхтеева студентка РУДН им. Патриса Лумумбы. Она учится на направлении "Прикладная информатика" ФФМиЕН. 
-  Маргарита увлекается веб-разработкой, танцами и блогингом. В 2025 году она окончила МКК "Пансион воспитанниц МО РФ" с
+  Маргарита Пыхтеева студентка РУДН им. Патриса Лумумбы. Учится на направлении "Прикладная информатика" ФФМиЕН. 
+  Маргарита увлекается веб-разработкой, танцами и блогингом. В 2025 году окончила МКК "Пансион воспитанниц МО РФ" с
   серебряной медалью.
 
 affiliations:
@@ -41,9 +41,9 @@ education:
     start: 2025-09-01
     end: 2029-06-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      В дальнейшем здесь будет краткая информация либо о научной статье, либо о дипломе.
     button:
-      text: Download dissertation
+      text: Скачать 
       url: /resume.pdf
       icon: hero/arrow-down-tray
   - degree: Среднее полное образование
@@ -52,51 +52,40 @@ education:
     end: 2025-06-20
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+ # - role: Senior AI Research Scientist
+  #  org: Meta AI
+   # start: 2020-01-01
+    #summary: |
+     # Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+   # button:
+    #  text: View portfolio
+     # url: /
+     # icon: hero/arrow-down-tray
+  - role: Организатор коллектива народно-сценического танца
+    org: Пансион воспитанниц
+    start: 2020-09-01
+    end: 2025-06-20
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Работала вместе с хореографом. На всех мероприятиях несла ответственность за коолектив.
 
 skills:
   - name: Technical Skills
     items:
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
         level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+      - label: C++
+        level: 2
 
 languages:
   - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
+    level: 3
     label: Fluent
+  - name: French
+    level: 1
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Серебряная медаль
+    awarder: Пансион воспитанниц
+    date: "2025-06-20"
+    summary: Награждена за особые успехи в учении.
     icon: hero/trophy
