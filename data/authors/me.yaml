@@ -29,6 +29,20 @@ links:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/1032252597
+  - icon: book-open
+    url: https://www.elibrary.ru/author_info.asp?isold=1 
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/schhp?hl=ru&authuser=0
+  - icon: brands/orcid
+    url: https://orcid.org/0009-0008-4467-5110
+  - icon: academicons/mendeley
+    url: https://www.mendeley.com/settings/account/
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Margarita-Pyhteeva?ev=hdr_xprf
+  - icon: academicons/academia
+    url: https://independent.academia.edu/МаргаритаПыхтеева
+  - icon: academicons/arxiv
+    url: https://arxiv.org/user/
 
 interests:
   - Веб-разработка
