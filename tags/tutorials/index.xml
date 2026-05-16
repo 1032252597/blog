@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials | </title>
+    <link>https://example.com/tags/tutorials/</link>
+      <atom:link href="https://example.com/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tutorials</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_da05098ef60dc2e7.png</url>
+      <title>Tutorials</title>
+      <link>https://example.com/tags/tutorials/</link>
+    </image>
+    
+    <item>
+      <title>⚡️ Работа с библиографией</title>
+      <link>https://example.com/blog/post-bibliography/</link>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/post-bibliography/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#основные-форматы-библиографических-ссылок&#34;&gt;Основные форматы библиографических ссылок&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#инструменты-для-управления-библиографией&#34;&gt;Инструменты для управления библиографией&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#рабочий-процесс-с-zotero-за-5-минут&#34;&gt;Рабочий процесс с Zotero (за 5 минут)&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#1-установка-и-настройка&#34;&gt;1. Установка и настройка&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-emerald-100 dark:bg-emerald-900 border-emerald-500&#34; 
+     data-callout=&#34;tip&#34; 
+     data-callout-metadata=&#34;&#34;&gt;
+  &lt;span class=&#34;callout-icon pr-3 pt-1 text-emerald-600 dark:text-emerald-300&#34;&gt;
+    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M12 18v-5.25m0 0a6 6 0 0 0 1.5-.189m-1.5.189a6 6 0 0 1-1.5-.189m3.75 7.478a12.1 12.1 0 0 1-4.5 0m3.75 2.383a14.4 14.4 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Tip&lt;/div&gt;
+    &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;&lt;strong&gt;Библиография - это не просто список источников в конце статьи.&lt;/strong&gt; Это способ показать, на чьих плечах вы стоите, и дать читателю дорожную карту для погружения в тему.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Академическая честность&lt;/strong&gt; – Чужие идеи должны быть атрибутированы. Плагиат убивает репутацию.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Воспроизводимость&lt;/strong&gt; – Читатель может найти и проверить ваши источники.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Профессиональный рост&lt;/strong&gt; – Хорошая библиография показывает, что вы в курсе современных исследований.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Автоматизация&lt;/strong&gt; – Правильные инструменты избавляют от ручного форматирования ссылок.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;основные-форматы-библиографических-ссылок&#34;&gt;Основные форматы библиографических ссылок&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Формат&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Где используется&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Пример оформления&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;ГОСТ Р 7.0.100-2018&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Россия, СНГ (дипломы, диссертации, статьи)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Пыхтеева М.И. Название книги. М.: Наука, 2024. 300 с.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;APA (7th ed.)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Психология, педагогика, социология&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Smith, J. (2024). Title of the book. Publisher.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;MLA (9th ed.)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Филология, литературоведение, искусство&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Smith, John. &lt;em&gt;Title of the Book&lt;/em&gt;. Publisher, 2024.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Chicago / Turabian&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;История, искусство, издательское дело&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Smith, John. &lt;em&gt;Title of the Book&lt;/em&gt;. Chicago: Publisher, 2024.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;IEEE&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Технические науки, IT, инженерия&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;[1] J. Smith, &amp;ldquo;Title of article,&amp;rdquo; &lt;em&gt;Journal Name&lt;/em&gt;, vol. 10, no. 2, pp. 10-20, 2024.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;BibTeX / BibLaTeX&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;LaTeX, Overleaf, научные статьи&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;@book{smith2024, author={John Smith}, title={Title}, year={2024}}&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;инструменты-для-управления-библиографией&#34;&gt;Инструменты для управления библиографией&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Инструмент&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Платформа&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Особенность&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Zotero&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Win/Mac/Linux&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Бесплатный, открытый код, отличные плагины для браузера и Word/LO&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Mendeley&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Win/Mac/Linux&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Бесплатный, хорошая социальная сеть учёных, PDF-аннотации&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;EndNote&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Win/Mac&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Платный, мощный, стандарт в крупных университетах&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;JabRef&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Java (везде)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Бесплатный, лучший для работы с BibTeX/BibLaTeX&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Paperpile&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Веб, Google Docs&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Платный по подписке, идеален для экосистемы Google&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500&#34; 
+     data-callout=&#34;note&#34; 
+     data-callout-metadata=&#34;&#34;&gt;
+  &lt;span class=&#34;callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300&#34;&gt;
+    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
+    &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;&lt;strong&gt;Zotero — золотой стандарт для начинающих.&lt;/strong&gt; Бесплатно, просто, есть всё необходимое. Синхронизация между компьютерами, плагин в браузер (одним кликом сохраняет статью с сайта), экспорт в любой формат.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;рабочий-процесс-с-zotero-за-5-минут&#34;&gt;Рабочий процесс с Zotero (за 5 минут)&lt;/h2&gt;
+&lt;h3 id=&#34;1-установка-и-настройка&#34;&gt;1. Установка и настройка&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Скачать с официального сайта&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# zotero.org/download&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# После установки:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 1. Зарегистрироваться для синхронизации&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 2. Установить плагин в браузер (Chrome/Firefox)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 3. Установить плагин для Word/LibreOffice (делается из Zotero)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>⚡️ ЭТАП 3 &#34;Пост по прошедшей неделе&#34;</title>
+      <link>https://example.com/blog/weekend-step3/</link>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/weekend-step3/</guid>
+      <description>&lt;h2 id=&#34;что-сделали-на-прошлой-недел-этап-3&#34;&gt;Что сделали на прошлой недел (этап 3)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Этап&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Что делали&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Добавили информацию о навыках (Skills)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Добавили информацию об опыте (Experience)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Добавили информацию о достижениях (Awards)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>⚡️ Легковесные языки разметки.</title>
+      <link>https://example.com/blog/post-easylanguage/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/post-easylanguage/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#самые-популярные-языки-этой-группы&#34;&gt;Самые популярные языки этой группы&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#базовый-синтаксис-markdown-то-что-нужно-знать-всем&#34;&gt;Базовый синтаксис Markdown (то, что нужно знать всем)&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-emerald-100 dark:bg-emerald-900 border-emerald-500&#34; 
+     data-callout=&#34;tip&#34; 
+     data-callout-metadata=&#34;&#34;&gt;
+  &lt;span class=&#34;callout-icon pr-3 pt-1 text-emerald-600 dark:text-emerald-300&#34;&gt;
+    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M12 18v-5.25m0 0a6 6 0 0 0 1.5-.189m-1.5.189a6 6 0 0 1-1.5-.189m3.75 7.478a12.1 12.1 0 0 1-4.5 0m3.75 2.383a14.4 14.4 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Tip&lt;/div&gt;
+    &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;&lt;strong&gt;Легковесные языки разметки — это простой текст, который превращается в красивый документ.&lt;/strong&gt; Никаких мышек, панелей инструментов и бесконечных «сохранить как&amp;hellip;». Пишешь — и сразу видишь результат.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Человекопонятный формат&lt;/strong&gt; – Файл &lt;code&gt;.md&lt;/code&gt; можно открыть в блокноте и всё равно понять структуру.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Без привязки к вендору&lt;/strong&gt; – Word есть не у всех. Markdown читается везде: от GitHub до обычного терминала.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Версионность из коробки&lt;/strong&gt; – Это обычный текст. Git отлично показывает, что изменилось в абзаце. С бинарным &lt;code&gt;.docx&lt;/code&gt; так не работает.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Экспорт во что угодно&lt;/strong&gt; – Из одного исходника получаете HTML, PDF, DOCX, презентацию и даже сайт.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;самые-популярные-языки-этой-группы&#34;&gt;Самые популярные языки этой группы&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Язык&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Где используется&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Особенность&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;GitHub, заметки, README, форумы&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Абсолютный стандарт индустрии&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;reStructuredText&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Документация Python (Sphinx)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Мощнее Markdown, но сложнее&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;AsciiDoc&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Техническая документация&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Подходит для больших книг и мануалов&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Org-mode&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Emacs, планирование задач&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Встроенная система GTD и таблиц&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Textile&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Старые блоги и CMS&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Был популярен в 2010-х&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;базовый-синтаксис-markdown-то-что-нужно-знать-всем&#34;&gt;Базовый синтаксис Markdown (то, что нужно знать всем)&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Заголовок 1-го уровня
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## Заголовок 2-го уровня
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### Заголовок 3-го уровня
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gs&#34;&gt;**Жирный текст**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;ge&#34;&gt;*Курсив*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;ge&#34;&gt;**&lt;/span&gt;*Жирный курсив***
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Элемент списка
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Ещё один элемент
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; Нумерованный список
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;2.&lt;/span&gt; Второй пункт
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[&lt;span class=&#34;nt&#34;&gt;Ссылка на Google&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;https://google.com&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Альтернативный текст&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;image.jpg&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&#34;ge&#34;&gt;Это цитата. Можно в несколько строк.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;`inline code`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;``&lt;span class=&#34;sb&#34;&gt;`python
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;# Блок кода с подсветкой синтаксиса
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;def hello():
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;    print(&amp;#34;Hello, World!&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;\`&lt;/span&gt;``
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Таблица | Столбец 2 |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|---------|-----------|
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Ячейка 1 | Ячейка 2 |
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>⚡️ ЭТАП 2 &#34;Пост по прошедшей неделе&#34;</title>
+      <link>https://example.com/blog/weekend-step2/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/weekend-step2/</guid>
+      <description>&lt;h2 id=&#34;что-сделали-на-прошлой-неделе-этап-2&#34;&gt;Что сделали на прошлой неделе (этап 2)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Этап&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Что делали&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Разместили фотографию владельца сайта&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Разместили краткое описание (Biography)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Добавили информацию об интересах (Interests)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Добавили информацию об образовании (Education)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>⚡️ ЭТАП 1 &#34;Пост по прошедшей неделе&#34;</title>
+      <link>https://example.com/blog/weekend-step1/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/weekend-step1/</guid>
+      <description>&lt;h2 id=&#34;что-сделали-на-прошлой-неделе-этап-1&#34;&gt;Что сделали на прошлой неделе (этап 1)&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Этап&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Что делали&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Установили необходимое программное обеспечение&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Скачали шаблон темы сайта&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Разместили его на хостинге git&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;4&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Установили параметр для URL сайта&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;5&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Разместили заготовку сайта на GitHub Pages&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>⚡️ Управление версиями. Git.</title>
+      <link>https://example.com/blog/post-git/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/post-git/</guid>
+      <description>
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#основные-команды-git&#34;&gt;Основные команды Git&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#как-начать-использовать-git&#34;&gt;Как начать использовать Git&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-emerald-100 dark:bg-emerald-900 border-emerald-500&#34; 
+     data-callout=&#34;tip&#34; 
+     data-callout-metadata=&#34;&#34;&gt;
+  &lt;span class=&#34;callout-icon pr-3 pt-1 text-emerald-600 dark:text-emerald-300&#34;&gt;
+    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M12 18v-5.25m0 0a6 6 0 0 0 1.5-.189m-1.5.189a6 6 0 0 1-1.5-.189m3.75 7.478a12.1 12.1 0 0 1-4.5 0m3.75 2.383a14.4 14.4 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Tip&lt;/div&gt;
+    &lt;div class=&#34;callout-body&#34;&gt;&lt;p&gt;&lt;strong&gt;Git — это не просто резервное копирование.&lt;/strong&gt; Git позволяет экспериментировать без страха сломать работающий код. Создали ветку — сломали? Удалили ветку, и ничего не случилось.&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Полная история&lt;/strong&gt; – Каждая строчка кода имеет автора, дату и причину изменения.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Без папок &lt;code&gt;_v2_final&lt;/code&gt;&lt;/strong&gt; – Больше никогда не создавайте копии проекта с именами &lt;code&gt;script_final_3_реально_последнее&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Работайте параллельно&lt;/strong&gt; – 10 разработчиков спокойно правят один проект. Ветки не пересекаются, пока вы сами их не сольёте.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Откат в один клик&lt;/strong&gt; – Ошиблись? &lt;code&gt;git revert&lt;/code&gt; — и всё снова работает.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;основные-команды-git&#34;&gt;Основные команды Git&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Команда&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Что делает&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;git init&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Создать новый репозиторий в текущей папке&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;git clone &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Скачать готовый репозиторий с GitHub/GitLab&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;git status&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Посмотреть, какие файлы изменены&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;git add &amp;lt;file&amp;gt;&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Подготовить файл к коммиту&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;git commit -m &amp;quot;сообщение&amp;quot;&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Сохранить снимок изменений&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;git push&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Отправить коммиты на удалённый сервер&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;git pull&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Забрать свежие изменения с сервера&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;git log --oneline&lt;/code&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Показать историю коммитов кратко&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;как-начать-использовать-git&#34;&gt;Как начать использовать Git&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Установите Git.&lt;/strong&gt;&lt;br&gt;
+– Windows: 
+&lt;br&gt;
+– macOS: &lt;code&gt;brew install git&lt;/code&gt;&lt;br&gt;
+– Linux: &lt;code&gt;sudo apt install git&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Представьтесь системе.&lt;/strong&gt; Git подписывает каждый ваш коммит:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ваше Имя&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email &lt;span class=&#34;s2&#34;&gt;&amp;#34;you@example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
